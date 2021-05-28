@@ -1,0 +1,27 @@
+section#rick-morty {
+    display : flex;
+    flex-direction: column;
+}
+    section#rick-morty .character {
+        width: 100%;
+        background-color : #2fb5d2;
+        display: flex;
+        flex-flow: wrap;
+        padding: 5%;
+        margin-bottom: 30px;
+    }
+        section#rick-morty .image {
+            width: 45%;
+            margin-right: 5%;
+        }
+            section#rick-morty .image img {
+                width: 100%;
+                height: auto;
+            }
+        section#rick-morty .info {
+            width: 50%;
+        }
+        section#rick-morty .movies {
+            width: 100%;
+            margin-top: 5%;
+        }
